@@ -14,11 +14,10 @@ main .categories img {
     border: 2px solid black;
 }
 
-main .categories .portfolio nav :hover 
-/*Creates Green Border Box on Hover on Work Portfolio*/ {
-    box-shadow: inset 0px 0px 8px
-rgb(40,212,83), 0 0 15px
-rgba(40,212,83,1);
+main .categories .portfolio nav :hover
+/*Creates Green Border Box on Hover on Work Portfolio*/
+    {
+    box-shadow: inset 0px 0px 8px rgb(40, 212, 83), 0 0 15px rgba(40, 212, 83, 1);
 }
 
 header {
@@ -31,13 +30,15 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .lastname 
-/*Makes Last Name "Deven" in Header Green*/ {
+header h1 .lastname
+/*Makes Last Name "Deven" in Header Green*/
+    {
     color: #0ea849;
 }
 
-header nav 
-/*navigation titles*/ {
+header nav
+/*navigation titles*/
+    {
     padding-top: 5px;
     margin-right: 20px;
     float: right;
@@ -50,8 +51,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
-#hero 
-/*main image*/ {
+#hero
+/*main image*/
+    {
     height: 200px;
     width: 100%;
     margin-top: 25px;
@@ -62,7 +64,8 @@ header nav ul li {
 }
 
 body header
-    /* Forces elements to the next line if they don't fit */ {
+/* Forces elements to the next line if they don't fit */
+    {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -71,12 +74,13 @@ body header
     color: #fff;
 }
 
-main 
-  /* Forces elements to the next line if they don't fit */ {
+main
+/* Forces elements to the next line if they don't fit */
+    {
     display: flex;
-      flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-top: 2%;
-  }
+}
 
 .box,
 .portfolio {
@@ -106,19 +110,20 @@ h3 {
     color: black;
 }
 
-a  {
+a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.box a  {
+.box a {
     color: black;
     text-decoration: none;
 }
 
-p 
-/*3 categories paragraphs*/  {
-    font-size:20px;
+p
+/*3 categories paragraphs*/
+    {
+    font-size: 20px;
     padding: 22px;
 }
 
@@ -129,12 +134,12 @@ main .categories .box li {
 @media screen and (max-width: 768px) {
     main,
     nav {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
 footer {
-/* Sets footer position to center */
+    /* Sets footer position to center */
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
