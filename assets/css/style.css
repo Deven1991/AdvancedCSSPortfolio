@@ -15,6 +15,7 @@ main .categories img {
 }
 
 main .categories .portfolio nav :hover
+
 /*Creates Green Border Box on Hover on Work Portfolio*/
     {
     box-shadow: inset 0px 0px 8px rgb(40, 212, 83), 0 0 15px rgba(40, 212, 83, 1);
@@ -31,12 +32,14 @@ header h1 {
 }
 
 header h1 .lastname
+
 /*Makes Last Name "Deven" in Header Green*/
     {
     color: #0ea849;
 }
 
 header nav
+
 /*navigation titles*/
     {
     padding-top: 5px;
@@ -52,6 +55,7 @@ header nav ul li {
 }
 
 #hero
+
 /*main image*/
     {
     height: 200px;
@@ -64,6 +68,7 @@ header nav ul li {
 }
 
 body header
+
 /* Forces elements to the next line if they don't fit */
     {
     display: flex;
@@ -75,6 +80,7 @@ body header
 }
 
 main
+
 /* Forces elements to the next line if they don't fit */
     {
     display: flex;
@@ -121,6 +127,7 @@ a {
 }
 
 p
+
 /*3 categories paragraphs*/
     {
     font-size: 20px;
@@ -132,6 +139,7 @@ main .categories .box li {
 }
 
 @media screen and (max-width: 768px) {
+
     main,
     nav {
         flex-direction: column;
@@ -146,6 +154,10 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h1 {
     font-size: 20px;
+}
+
+footer h2 {
+    font-size: 14px;
 }

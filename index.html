@@ -4,26 +4,61 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>Melissa Deven's Portfolio</title>
 </head>
 
 <body>
     <header>
         <h1>Melissa <span class="lastname">Deven</span></h1>
+
         <br>
-        <img src="./assets/images/headshot.jpg">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutme">About Me</a>
-                </li>
-                <li>
-                    <a href="#workportfolio">Work Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contactme">Contact Me</a>
-                </li>
-            </ul>
+
+        <figure class="image is-128x128">
+            <img class="is-rounded" src="./assets/images/headshot.jpg">
+        </figure>
+
+        <nav class="navbar is-transparent">
+            <div class="navbar-brand">
+                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#aboutme">
+                        About Me
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link" href="https://bulma.io/documentation/overview/start/">
+                            Work Portfolio
+                        </a>
+                        <div class="navbar-dropdown is-boxed">
+                            <a class="navbar-item" href="https://deven1991.github.io/CodeRefactor/Develop/index.html" target="_blank">
+                                Code Refactor
+                            </a>
+                            <a class="navbar-item" href="https://deven1991.github.io/prework-about-me/" target="_blank">
+                                Prework
+                            </a>
+                            <a class="navbar-item" href="https://deven1991.github.io/Deven1991.githubpages.io/" target="_blank">
+                                Github Pages
+                            </a>
+                            <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+                                Layout
+                            </a>
+                            <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+                                Form
+                            </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="#contactme">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -102,8 +137,16 @@
     </main>
 
     <footer>
-        <h2>Made with ❤️️ by Melissa Deven</h2>
-        <p>Last Updated on April 16, 2022</p>
+        <div>
+            <h1>Northwestern Coding Bootcamp Completion</h1>
+            <progress class="progress is-success" value="33" max="100">33%</progress>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h2>Made with ❤️️ by Melissa Deven</h2>
+            <p>Last Updated on April 16, 2022</p>
+        </div>
     </footer>
 
 </body>
