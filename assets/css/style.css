@@ -7,7 +7,6 @@ body {
     background-color: whitesmoke;
 }
 
-
 body header img,
 main .categories img {
     max-height: 250px;
@@ -39,7 +38,6 @@ header h1 .lastname
 }
 
 header nav
-
 /*navigation titles*/
     {
     padding-top: 5px;
@@ -116,6 +114,10 @@ h3 {
     color: black;
 }
 
+.subtitles {
+    font-size: 30px;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -138,14 +140,6 @@ main .categories .box li {
     list-style-type: none;
 }
 
-@media screen and (max-width: 768px) {
-
-    main,
-    nav {
-        flex-direction: column;
-    }
-}
-
 footer {
     /* Sets footer position to center */
     padding: 30px;
@@ -160,4 +154,16 @@ footer h1 {
 
 footer h2 {
     font-size: 14px;
+}
+
+.navbar-item {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+
+    main,
+    nav {
+        flex-direction: column;
+    }
 }
