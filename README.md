@@ -14,6 +14,7 @@ My portfolio of work showcases my skills and talents to future employers.
 - [Usage](#usage)
 - [Links](#links)
 
+
 ## UserStory
 ```
 AS AN employer
@@ -29,12 +30,10 @@ Additionally, the below video showcases how to use the webpage and its functiona
 
 ![alt text](assets/images/recording.gif)
 
+
 ## Usage
 
 The webpage was primarily built with HTML and CSS. As alterate CSS frameworks, Bootstrap and Bulma were both used to enhance the webpaeg and ease of use.
-
-
-![alt text](assets/images/recording.gif)
 
 
 ## Links
