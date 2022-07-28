@@ -1,222 +1,189 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melissa Megan Deven - Portfolio</title>
+
+    <!-- Cursive Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
-    <title>Melissa Deven's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+
+    <!-- Standard Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+
+    <!-- CSS Style Sheets -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Melissa <span class="lastname">Deven</span></h1>
-
-        <br>
-
-        <figure class="image is-128x128">
-            <img class="is-rounded" src="./assets/images/headshot.jpg">
-        </figure>
-
-        <nav class="navbar is-transparent">
-            <div class="navbar-brand">
-                <div class="navbar-burger" data-target="navbarExampleTransparentExample">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-
-            <div id="navbarExampleTransparentExample" class="navbar-menu">
-                <div class="navbar-start">
-
-                    <a class="navbar-item" href="#aboutme">
-                        About Me
-                    </a>
-
-                    <div class="navbar-item has-dropdown is-hoverable">
-                        <a class="navbar-link" href="#workportfolio">
-                            Work Portfolio
-                        </a>
-                        <div class="navbar-dropdown is-boxed">
-                            <a class="navbar-item" href="https://maiavelli.github.io/ArtInstChi/"
-                                target="_blank">
-                                Art Institute of Chicago
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/CodeRefactor/Develop/index.html"
-                                target="_blank">
-                                Code Refactor
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/Deven1991.githubpages.io/"
-                                target="_blank">
-                                Github Pages
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/PwdGenerator/" target="_blank">
-                                Password Generator
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/prework-about-me/" target="_blank">
-                                Prework
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/WeatherDashboard/" target="_blank">
-                                Weather Dashboard
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/WebAPIsCodeQuiz/" target="_blank">
-                                Web APIs Code Quiz
-                            </a>
-                            <a class="navbar-item" href="https://deven1991.github.io/WorkDayScheduler/" target="_blank">
-                                Workday Scheduler
-                            </a>
-                        </div>
-                    </div>
-
-                    <a class="navbar-item" href="#contactme">
-                        Contact Me
-                    </a>
-                    <a class="navbar-item" href="#comment">
-                        Comments
-                    </a>
-                </div>
-            </div>
+    <!-- Header and Navigation -->
+    <header class="headerimage">
+        <h1>Melissa Megan Deven</h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
 
-    <div id="hero"></div>
-
+    <!-- About Me -->
     <main>
-        <div class="categories">
-            <section class="box">
-                <div id="aboutme">
-                    <h2 class="subtitles">About Me</h2>
-                    <h3>
-                        <li>Melissa Deven is an Associate Portfolio Manager at the Federal Home Loan Bank of Chicago.
-                            Ms. Deven has been with the FHLBank Chicago for 10 years and she uses her financial industry
-                            knowledge and understanding of the fixed-income market to benefit the members she serves.
-                            Melissa also assists the team through her data analysis and visualization skills to develop
-                            strategies for member institutions to better serve their needs. Prior to this role, Ms.
-                            Deven was a Director in the Member Strategy and Solutions group. Previous to that, Ms. Deven
-                            worked on the Member Transactions Desk at the FHLBank Chicago and on the Collateral
-                            Operations and Safekeeping groups at the Bank. </li>
-                        <br>
-                        <li>Mrs. Deven received her Bachelor of Science in Business Administration in 2012 and MBA in
-                            2016 from Indiana University. </li>
-                        <br>
-                        <li>Additionally, Ms. Deven completed the Mujeres de HACE program in spring 2020 – geared to
-                            empower high-potential Latina professional to succeed professionally and thrive personally
-                            while providing insight, access, and professional development. </li>
-                        <br>
-                        <li>In August 2021, Ms. Deven joined the Chicago Auxiliary Board as Treasurer in order to
-                            continue supporting HACE. As Treasurer, Ms. Deven is responsible for the management and
-                            tracking of all funds raised and allocations. </li>
-                    </h3>
-                </div>
-            </section>
+        <h2 id="aboutme">About Me</h2>
+        <section class="aboutmebox">
+            <p>
+            <div>
+                <img src="./assets/images/headshot.jpg" class="clip-circle"
+                    alt="headshot" />
+            </div>
+            <div>
+                <li>Melissa Deven is an Associate Portfolio Manager at the Federal Home Loan Bank of Chicago.
+                    Mrs. Deven has been with the FHLBank Chicago for 10 years and uses her financial industry
+                    knowledge and understanding of the fixed-income market to benefit the members she serves.
+                    Melissa also assists the team through her data analysis and visualization skills to develop
+                    strategies for member institutions to better serve their needs. Prior to this role, Mrs.
+                    Deven was a Director in the Member Strategy and Solutions group. Previous to that, Mrs. Deven
+                    worked on the Member Transactions Desk at the FHLBank Chicago and on the Collateral
+                    Operations and Safekeeping groups at the Bank. </li>
+                <br>
+                <li>Mrs. Deven received her Bachelor of Science in Business Administration in 2012 and MBA in
+                    2016 from Indiana University. Mrs. Deven is currently in a coding bootcamp at Northwestern
+                    University. </li>
+                <br>
+                <li>Additionally, Mrs. Deven completed the Mujeres de HACE program in spring 2020 – geared to
+                    empower high-potential Latina professional to succeed professionally and thrive personally
+                    while providing insight, access, and professional development. </li>
+                <br>
+                <li>In August 2021, Mrs. Deven joined the Chicago Auxiliary Board as Treasurer in order to
+                    continue supporting HACE. As Treasurer, Mrs. Deven is responsible for the management and
+                    tracking of all funds raised and allocations. </li>
+        </section>
 
-            <section class="portfolio">
-                <div id="workportfolio">
-                    <h2 class="subtitles">Work Portfolio</h2>
-                    <nav>
-                        <ul>
-                            <a href="https://maiavelli.github.io/ArtInstChi/" target="_blank">
-                                <img src="./assets/images/artinstit.png" alt="Art Institute of Chicago" />
-                            </a>
-                            <a href="https://deven1991.github.io/CodeRefactor/Develop/index.html" target="_blank">
-                                <img src="./assets/images/coderefactor2.png" alt="Code Refactor" />
-                            </a>
-                            <a href="https://deven1991.github.io/Deven1991.githubpages.io/" target="_blank">
-                                <img src="./assets/images/githubpages2.png" alt="Github Pages" />
-                            </a>
-                            <a href="https://deven1991.github.io/PwdGenerator/" target="_blank">
-                                <img src="./assets/images/pwdgenerator.png" alt="Password Generator" />
-                            </a>
-                            <a href="https://deven1991.github.io/prework-about-me/" target="_blank">
-                                <img src="./assets/images/prework2.png" alt="Prework" />
-                            </a>
-                            <a href="https://deven1991.github.io/WeatherDashboard/" target="_blank">
-                                <img src="./assets/images/weatherdashboard.png" alt="Weather Dashboard" />
-                            </a>
-                            <a href="https://deven1991.github.io/WebAPIsCodeQuiz/" target="_blank">
-                                <img src="./assets/images/codingquiz.png" alt="Web APIs Code Quiz" />
-                            </a>
-                            <a href="https://deven1991.github.io/WorkDayScheduler/" target="_blank">
-                                <img src="./assets/images/workdayscheduler.png" alt="Workday Scheduler" />
-                            </a>
-                        </ul>
-                    </nav>
+        <!-- Work -->
+        <h2 id="work">Work</h2>
+        <section class="workbox">
+            <!-- One Large Application -->
+            <div class="container">
+                <a href="https://sightcity-travel-planning.herokuapp.com/" target="_blank" alt="group project 2">
+                    <img class="hero" />
+                </a>
+                <div class="bottom-left">
+                    <caption>SightCity Travel Planning</caption><br>
+                    <div class="align-left">
+                        <a href="https://sightcity-travel-planning.herokuapp.com/">Deployed App</a> / <a
+                            href="https://github.com/edanahy22/sightcity-travel-planning.git">Repo</a>
+                    </div>
                 </div>
-            </section>
-
-            <section class="box">
-                <div id="contactme">
-                    <h2 class="subtitles">Contact Me</h2>
-                    <h3>
-                        <ul>
-                            <li>
-                                <img src="./assets/images/phone.jpg" alt="Phone Icon" width="50px"> 1-219-973-9011
-                            </li>
-                            <li>
-                                <img src="./assets/images/email.png" alt="E-Mail Icon" width="50px"> mmdeven@gmail.com
-                            </li>
-                            <li>
-                                <img src="./assets/images/location.png" alt="Location Icon" width="50px"> Dyer, Indiana
-                            </li>
-                            <li>
-                                <img src="./assets/images/linkedin.jpg" alt="LinkedIn" width="50px">
-                                <a href="https://www.linkedin.com/in/melissa-deven-18457832/" target="_blank"
-                                    alt="LinkedIn Webpage">LinkedIn Linked Here</a>
-                            </li>
-                        </ul>
-                    </h3>
-                </div>
-            </section>
-
-            <section class="comment">
-                <div id="comment">
-                    <article class="media">
-                        <div class="media-content">
-                            <div class="field">
-                                <p class="control">
-                                    <textarea class="textarea" placeholder="Add a comment..."></textarea>
-                                </p>
-                            </div>
-                            <nav class="level">
-                                <div class="level-left">
-                                    <div class="level-item">
-                                        <a class="button is-info">Submit</a>
-                                    </div>
-                                </div>
-                                <div class="level-right">
-                                    <div class="level-item">
-                                        <label class="checkbox">
-                                            <input type="checkbox"> Press enter to submit
-                                        </label>
-                                    </div>
-                                </div>
-                            </nav>
+            </div>
+            <!-- Smaller Applications -->
+            <div class="portfolio">
+                <!-- Example 1 -->
+                <div class="containerflex">
+                    <a href="https://maiavelli.github.io/ArtInstChi/" target="_blank" alt="group project 1">
+                        <img class="portfolioimage" id="artinstit" />
+                    </a>
+                    <div class="caption">
+                        <caption>Art Institute of Chicago</caption>
+                        <div class="align-left">
+                            <a href="https://maiavelli.github.io/ArtInstChi/">Deployed App</a> / <a
+                                href="https://github.com/maiavelli/ArtInstChi.git">Repo</a>
                         </div>
-            </section>
+                    </div>
+                </div>
+                <!-- Example 2 -->
+                <div class="containerflex">
+                    <a href="https://deven1991.github.io/WeatherDashboard/" target="_blank" alt="weather dashboard homework assignment">
+                        <img class="portfolioimage" id="weatherdashboard" />
+                    </a>
+                    <div class="caption">
+                        <caption>Weather Dashboard</caption>
+                        <div class="align-left">
+                            <a href="https://deven1991.github.io/WeatherDashboard/">Deployed App</a> / <a
+                                href="https://github.com/Deven1991/WeatherDashboard.git">Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example 3 -->
+                <div class="containerflex">
+                    <a href="https://deven1991.github.io/CodeRefactor/Develop/index.html" target="_blank" alt="code refactor homework assignment">
+                        <img class="portfolioimage" id="coderefactor" />
+                    </a>
+                    <div class="caption">
+                        <caption>Code Refactor</caption>
+                        <div class="align-left">
+                            <a href="https://deven1991.github.io/CodeRefactor/Develop/index.html">Deployed App</a> / <a
+                                href="https://github.com/Deven1991/CodeRefactor.git">Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example 4 -->
+                <div class="containerflex">
+                    <a href="https://deven1991.github.io/WebAPIsCodeQuiz/" target="_blank" alt="web apis code quiz homework assignment">
+                        <img class="portfolioimage" id="codequiz" />
+                    </a>
+                    <div class="caption">
+                        <caption>Web APIs Quiz</caption>
+                        <div class="align-left">
+                            <a href="https://deven1991.github.io/WebAPIsCodeQuiz/">Deployed App</a> / <a
+                                href="https://github.com/Deven1991/WebAPIsCodeQuiz.git">Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example 5 -->
+                <div class="containerflex">
+                    <a href="https://deven1991.github.io/PwdGenerator/" target="_blank" alt="password generator homework assignment">
+                        <img class="portfolioimage" id="passwordgenerator" />
+                    </a>
+                    <div class="caption">
+                        <caption>Password Generator</caption>
+                        <div class="align-left">
+                            <a href="https://deven1991.github.io/PwdGenerator/">Deployed App</a> / <a
+                                href="https://github.com/Deven1991/PwdGenerator.git">Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Example 6 -->
+                <div class="containerflex">
+                    <a href="https://deven1991.github.io/WorkDayScheduler/" target="_blank" alt="workday scheduler homework assignment">
+                        <img class="portfolioimage" id="workdayscheduler" />
+                    </a>
+                    <div class="caption">
+                        <caption>Workday Scheduler</caption>
+                        <div class="align-left">
+                            <a href="https://deven1991.github.io/WorkDayScheduler/">Deployed App</a> / <a
+                                href="https://github.com/Deven1991/WorkDayScheduler.git">Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        </div>
-        </article>
-        </div>
+        <!-- Contact Me -->
+        <h2 id="contactme">Contact Me</h2>
+        <section class="contactmebox">
+            <div>Email: <a href="malito:mmdeven@gmail.com">mmdeven@gmail.com</a></div>
+            <div>Phone: <a href="tel:2199739011">219-973-9011</a></div>
+            <div>GitHub: <a href="https://github.com/Deven1991" target="_blank">GitHub</a></div>
+            <div>LinkedIn: <a href="https://www.linkedin.com/in/melissa-deven-18457832/" target="_blank">LinkedIn</a>
+            </div>
+            <div><a href="./assets/images/Deven.pdf" download>Download Resume</a></div>
+        </section>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <div>
-            <h1>Northwestern Coding Bootcamp Completion</h1>
-            <progress class="progress is-success" value="33" max="100">33%</progress>
-        </div>
-        <br>
-        <br>
-        <div>
-            <h2>Made with ❤️️ by Melissa Deven</h2>
-            <p>Last Updated on May 30, 2022</p>
-        </div>
+        <footer>
+            <h4>© Melissa Megan Deven - Northwestern Full Stack Coding Bootcamp 2022</h4>
+        </footer>
     </footer>
-
-    <script type="text/javascript" src="./assets/js/script.js">
 
 </body>
 

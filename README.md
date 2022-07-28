@@ -28,8 +28,9 @@ The first section include Melissa Deven's biography including education and work
 
 Additionally, the below video showcases how to use the webpage and its functionality. 
 
-![alt text](assets/images/recording.gif)
+![alt text](assets/images/webpage.png)
 
+Video Link: https://drive.google.com/file/d/1nkJbK1QbOHMm1jqBaR2snnuLRKkRnCNn/view
 
 ## Usage
 
@@ -38,5 +39,10 @@ The webpage was primarily built with HTML and CSS. As alterate CSS frameworks, B
 
 ## Links
 
-Github: https://github.com/Deven1991/AdvancedCSSPortfolio.git
-Deployed Page: https://deven1991.github.io/AdvancedCSSPortfolio/
+1. [Updated Portfolio] https://deven1991.github.io/AdvancedCSSPortfolio/
+
+2. [Updated GitHub Profile] https://github.com/Deven1991
+
+3. [Updated Resume] ![alt text](assets/images/Deven.pdf)
+
+4. [Updated LinkedIn] https://www.linkedin.com/in/melissa-deven-18457832/
